@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Chu-Chang Ku",
+    "email": "TimeWz667@gmail.com"
+  },
+  "repository": "/docs",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "Mozilla Public License Version 2.0",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "^2.21.2",
+    "lodash": "^4.17.21"
+  }
+}
